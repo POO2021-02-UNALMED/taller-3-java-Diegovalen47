@@ -4,9 +4,7 @@ public class Control {
     private TV tv;
 
     public void setCanal(int canal) {
-        if (canal >= 1 && canal <= 120) {
-            tv.setCanal(canal);
-        }
+        tv.setCanal(canal);
     }
 
     public void enlazar(TV tv) {
